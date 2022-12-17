@@ -6,13 +6,13 @@ Para utilizar este proyecto es necesario contar con Python 3.10 o superior insta
 
 ## Ejecución
 Para ejecutar el servidor, se debe ejecutar el siguiente comando en la consola:
-
-Copy code
+```
 python server.py
+```
 Para ejecutar el cliente, se debe ejecutar el siguiente comando en la consola:
-
-Copy code
+```
 python client.py
+```
 Una vez ejecutados ambos programas, el cliente podrá enviar imágenes al servidor y descargar imágenes del servidor.
 
 ## Funcionamiento
@@ -21,8 +21,8 @@ El servidor y el cliente se comunican utilizando la biblioteca socket de Python.
 Una vez conectado el cliente, este puede elegir entre enviar una imagen al servidor o descargar una imagen del servidor. Si elige enviar una imagen, el servidor recibe la imagen y la almacena en la carpeta "documents". Si elige descargar una imagen, el servidor envía una lista de las imágenes disponibles en la carpeta "documents" y el cliente elige cuál de ellas desea descargar.
 
 ## Autores
-Nombre del autor 1
-Nombre del autor 2
+- Brayan Snader Galeano Lara ([brayangaleanolara](https://github.com/brayangaleanolara))
+- Paula Marcela Aragonés Murcia ([paulaa2209](https://github.com/paulaa2209))
 
 ## Licencia
-Este proyecto está licenciado bajo la licencia [Nombre de la licencia]. Para más información, consulte el archivo LICENSE.
+Este proyecto está licenciado bajo la licencia MIT. Para más información, consulte el archivo LICENSE.
